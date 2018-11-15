@@ -25,4 +25,9 @@ feature 'front page' do
     expect(page).to have_field('month')
   end
 
+  scenario 'user can submit their information' do
+    visit '/'
+    expect(page).to have_button('Submit')
+  end
+
 end
