@@ -1,6 +1,31 @@
 <h1>Hello, there!</h1>
-<h4>What is your name?</h4>
-<form action="/" method="post">
-  <input type="text" name="name">
 
+<form action="/" method="post">
+  <fieldset>
+    <legend>What's your name?</legend>
+    <input type="text" name="name">
+  </fieldset>
+</form>
+
+<form action="/" method="post">
+  <fieldset>
+    <legend>When's your birthday?</legend>
+    Day:
+    <input type="text" name="day">
+    Month:
+    <select name="month">
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>
+      <option value="August">August</option>
+      <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+      <option value="December">December</option>
+    </select>
+  </fieldset>
 </form>
